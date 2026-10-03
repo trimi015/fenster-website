@@ -7,6 +7,7 @@ import Prozess from "./components/Prozess";
 import Produkte from "./components/Produkte";
 import Referenzen from "./components/Referenzen";
 import Kontakt from "./components/Contact";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -18,10 +19,9 @@ export default function Home() {
       <Produkte />
       <Referenzen />
       <Kontakt />
+      <Footer />
       
-      <footer className="bg-black text-gray-400 py-6 text-center text-sm border-t border-zinc-800">
-        <p>© {new Date().getFullYear()} Fensterbau Spahiu. Alle Rechte vorbehalten.</p>
-      </footer>
+    
     </main>
   );
 }
