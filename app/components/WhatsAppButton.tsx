@@ -2,9 +2,8 @@
 import React from 'react';
 
 export default function WhatsAppButton() {
-  // Zëvendëso numrin e mëposhtëm me numrin tënd të telefonit në formatin ndërkombëtar (p.sh. 49 për Gjermaninë, pa zero në fillim)
-  const phoneNumber = "4915123456789"; 
-  const defaultMessage = encodeURIComponent("Përshëndetje Spahiu Fensterbau, jam i interesuar për shërbimet tuaja.");
+  const phoneNumber = "4915906321783"; 
+  const defaultMessage = encodeURIComponent("Hallo Spahiu Fensterbau, ich interessiere mich für Ihre Leistungen.");
 
   return (
     <a
@@ -12,9 +11,8 @@ export default function WhatsAppButton() {
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg flex items-center justify-center transition-all duration-300 hover:scale-110"
-      aria-label="Na shkruani në WhatsApp"
+      aria-label="WhatsApp Kontakt"
     >
-      {/* Ikona e WhatsApp-it (SVG) */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="w-7 h-7"
