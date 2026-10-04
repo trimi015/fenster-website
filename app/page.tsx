@@ -8,7 +8,8 @@ import Produkte from "./components/Produkte";
 import Referenzen from "./components/Referenzen";
 import Kontakt from "./components/Contact";
 import Footer from "./components/Footer";
-
+import CookieBanner from "./components/CookieBanner";
+import WhatsAppButton from "./components/WhatsAppButton";
 export default function Home() {
   return (
     <main className="bg-white min-h-screen">
@@ -20,7 +21,8 @@ export default function Home() {
       <Referenzen />
       <Kontakt />
       <Footer />
-      
+      <CookieBanner />
+      <WhatsAppButton />
     
     </main>
   );
